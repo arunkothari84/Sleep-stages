@@ -96,5 +96,5 @@ lowcut = float(raw_signals._raw_extras[0]['highpass'][0]) * 0.25
 
 
 ## Resources:
-- [Fast Fourier Transform]('https://towardsdatascience.com/fast-fourier-transform-937926e591cb')
-- [Buttering of Wave]()
+- [Fast Fourier Transform](https://towardsdatascience.com/fast-fourier-transform-937926e591cb)
+- [Buttering of Wave](https://www.youtube.com/watch?v=juYqcck_GfU&t=625s)
