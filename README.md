@@ -33,6 +33,8 @@ TRAINING: ['./Data with pre-processing\\SC4001E0.npz',
 ln[311] : x_train, y_train, x_valid, y_valid = data_loader.load_train_data(n_files=10)
 ```
 
+[DRIVE LINK FOR MODIFIED REPO](https://drive.google.com/drive/folders/1yl-MZ20kRWklC0BKspHvBu5_FQmoTzk-?usp=sharing)
+
 ## Parameters:
 
 - I have set cutoff frequency for the buttering to **25% of the lowpass and highpass frequency**.
@@ -56,6 +58,8 @@ lowcut = float(raw_signals._raw_extras[0]['highpass'][0]) * 0.25
 ### PreProcessing:
 > Using **Pre-Processing.ipynb**
 - Applying ***FFT and Buttering*** to the **.npz** file, and saving it in the **Data with pre-processing** folder.
+
+[DRIVE LINK FOR DATA](https://drive.google.com/drive/folders/1SMHQeVfigjbKB0KBlwSqoAGOVKQcu45w?usp=sharing)
 
 ### Visualization:
 - First 500 points
@@ -93,6 +97,8 @@ lowcut = float(raw_signals._raw_extras[0]['highpass'][0]) * 0.25
 		 [  0   0   0 459   0]
 		 [  0   1   5   0 291]]
 ```
+
+[DRIVE LINK FOR LAST CHKPT](https://drive.google.com/file/d/11nRsmo2BF7AvFsotXp39eWTQ-nDGvtT5/view?usp=sharing)
 
 
 ## Resources:
