@@ -59,9 +59,11 @@ lowcut = float(raw_signals._raw_extras[0]['highpass'][0]) * 0.25
 
 ### Visualization:
 - First 500 points
+
 ![image](https://i.ibb.co/x84cRLN/image.png)
 
 - First 200 points
+
 ![image](https://i.ibb.co/4KP5cZ5/image.png)
 
 ### Driver Code:
